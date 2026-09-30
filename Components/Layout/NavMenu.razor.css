@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    padding: 0.85rem 1.5rem;
+    background-color: #2b2b40;
+}
+
+    .navbar ::deep a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+        opacity: 0.85;
+    }
+
+        .navbar ::deep a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        .navbar ::deep a.active {
+            opacity: 1;
+            border-bottom: 2px solid #ffffff;
+        }
